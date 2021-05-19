@@ -3,9 +3,9 @@ package QualitykioskTraining.JenkinsDemo;
 public class CalculatorAPI 
 {
 	
-	public int Addition(int num1,int num2)
+	public int Addition(int numOne,int numTwo)
 	{
-		int Res=num1+num2;
+		int Res=numOne+numTwo;
 		return Res;
 	}
 
