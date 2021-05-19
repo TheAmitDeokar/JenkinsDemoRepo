@@ -10,7 +10,7 @@ public class TestAddition
 {
 
 	CalculatorAPI Obj;
-	int R;
+	int Res;
 	
 	
 	//@Before("RegressionTest")
@@ -30,13 +30,13 @@ public class TestAddition
 	public void ReinitialiseResultVar()
 	{
 		System.out.println("I am in Before Method");
-		R=0;
+		Res=0;
 	}
 	@Test(priority=1)
 	public void TestAdditionWithPositiveNumbers()
 	{
 		System.out.println("I am in 1 st TestCase");
-		R=Obj.Addition(10,20);
-		Assert.assertEquals(R, 30,"Addition does not work with positive numbers");
+		Res=Obj.Addition(10,20);
+		Assert.assertEquals(Res, 30,"Addition does not work with positive numbers");
 	}
 }

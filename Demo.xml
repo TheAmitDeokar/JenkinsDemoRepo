@@ -1,0 +1,8 @@
+<suite name="TestingCalculatorAPI">
+
+       <test name="AdditionTestCases">
+       <classes>
+          <class name="QualitykioskTraining.JenkinsDemo.TestAddition"/>
+       </classes>
+       </test>     
+</suite>
